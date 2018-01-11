@@ -1,3 +1,4 @@
+ 
 /* Header */
 
 header {
@@ -50,4 +51,36 @@ nav li a {
 nav li a:hover {
     background-color: #333132;
     color: rgb(229,245,249)
+}
+
+/* Footer */
+
+footer {
+    display: block;
+    width: 100%;
+    color: #333132;
+    background-color: rgba(229, 245, 249, .75);
+}
+
+#copyright { 
+    float: left;
+}
+
+footer ul {
+    float: right;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: .5em .25em;
+    padding: 0;
+}
+
+footer li a img {
+    max-width: 100px;
+}
+
+footer li a img:hover {
+    color: rgba(229, 245, 249, .45);
 }

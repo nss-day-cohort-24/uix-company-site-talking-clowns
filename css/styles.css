@@ -1,4 +1,50 @@
  
+/* Defaults */
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    background: #333132;  
+    font-family: "Sansita", sans-serif;
+    color: #E5F5F9;
+    font-size: 16px;
+}
+
+.clearfix {
+    clear: both;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Asar", serif;
+    color: #BE1E2D;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;0
+}
+
+img {
+    max-width: 600px;
+    max-height: 600px;
+}
+
 /* Header */
 
 header {

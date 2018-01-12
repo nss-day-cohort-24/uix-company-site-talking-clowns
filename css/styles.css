@@ -8,6 +8,13 @@ body {
     font-family: "Sansita", sans-serif;
     color: #E5F5F9;
     font-size: 16px;
+    margin: 0;
+}
+/* LP added this to all divs so that the top and bottom would have space
+*  You can override this by using child css selectors.
+*/
+div {
+    padding: 10px 0;
 }
 
 .clearfix {
@@ -37,26 +44,39 @@ h4 {
 }
 
 h5 {
-    font-size: 1.2em;0
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 img {
     max-width: 600px;
     max-height: 600px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
 
 header {
-    height: 100px;
+    padding: 10px 20px;
+    height: 50px;
     width: 100%;
     color: #333132;
     background-color: rgba(229,245,249,.75)
 }
 
 #logo {
-    width: 5em;
-    max-height: 100%;
+    margin: 10px;
+    max-height: 90%;
     float: left;
 }
 
@@ -64,6 +84,11 @@ header {
 
 nav {
     float: right;
+    max-width: 60%;
+}
+
+nav ul {
+    height: 100%;
 }
 
 nav ul li {
@@ -86,11 +111,11 @@ nav ul li:first-child {
 
 nav li a {
     text-decoration: none;
-    background: color #333132;
+    background: #333132;
     color: #BE1E2D;
-    padding: 0;
+    padding: 5px 15px;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 5px;
     text-align: center;
 }
 
@@ -99,32 +124,48 @@ nav li a:hover {
     color: rgb(229,245,249)
 }
 
+/* Body */
+
+div.container {
+    padding: 10px 0;
+    /* CSS Debugging Techinque === MAKE BORDERS AROUND EVERYTHING */
+    border: solid yellow 2px;
+}
+
 /* Footer */
 
 footer {
     display: block;
+    height: 50px;
     width: 100%;
+    padding: 10px 20px;
     color: #333132;
-    background-color: rgba(229, 245, 249, .75);
+    background-color: rgba(229,245,249,.75);
 }
 
 #copyright { 
     float: left;
+    max-height: 100%;
 }
 
 footer ul {
     float: right;
+
 }
 
 footer ul li {
     list-style: none;
     display: inline-block;
-    margin: .5em .25em;
     padding: 0;
 }
 
+footer li a {
+    display: block;
+}
+
 footer li a img {
-    max-width: 100px;
+    display: block;
+    max-width: 50px;
 }
 
 footer li a img:hover {

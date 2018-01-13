@@ -135,24 +135,37 @@ div.container {
 
 /* Landing Page */
 
+.sectionDiv {
+    padding-top: 0;
+}
+
 .landing section {
     width: 100%;
     height: max-content;
     display: block;
-    padding: 10px 80px;
+    padding: 10px 80px 80px;
 }
 
 section#hero {
     background-image: url("../images/hero.png");
+    padding-top: 200px ;
+    padding-bottom: 200px ;
+    background-position-y: -700px;
+}
+
+.landing article {
+    display: inline-block;
+    width: 45%;
 }
 
 .landing h1, h2 {
-    color: rgb(229,245,249)   
+    color: rgb(229,245,249)
 }
 
 .hand {
     float: right;
     display: inline-block;
+    margin-right: 100px;
 }
 
 /* Footer */

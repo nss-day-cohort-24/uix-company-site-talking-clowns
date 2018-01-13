@@ -28,11 +28,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
+    magin: 
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 h3 {
@@ -130,6 +131,41 @@ div.container {
     padding: 10px 0;
     /* CSS Debugging Techinque === MAKE BORDERS AROUND EVERYTHING */
     border: solid yellow 2px;
+}
+
+/* Landing Page */
+
+.sectionDiv {
+    padding-top: 0;
+}
+
+.landing section {
+    width: 100%;
+    height: max-content;
+    display: block;
+    padding: 10px 80px 80px;
+}
+
+section#hero {
+    background-image: url("../images/hero.png");
+    padding-top: 200px ;
+    padding-bottom: 200px ;
+    background-position-y: -700px;
+}
+
+.landing article {
+    display: inline-block;
+    width: 45%;
+}
+
+.landing h1, h2 {
+    color: rgb(229,245,249)
+}
+
+.hand {
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
 }
 
 /* Footer */

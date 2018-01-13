@@ -50,23 +50,24 @@ var products = [
     }
 ];
 
-var cardContent = `<article class="card">
-                   <img src="` + products[0].imgURL + `">
-                   <h2>` + products[0].name + `</h2>
-                   <p>` + products[0].price + `</p>
-                   <p>` + products[0].description + `</p>
-                   </article>`;
+for (i=0; i<=7; i++) {
+    console.log(products[i]);
 
-function addCard() {
-    var card = document.getElementById('cards');
-    card.innerHTML = cardContent;
+    var cardContent = `<article class="card">
+                    <img src="` + products[i].imgURL + `">
+                    <h2>` + products[i].name + `</h2>
+                    <p>` + products[i].price + `</p>
+                    <p>` + products[i].description + `</p>
+                    </article>`;
+
+    function addCard() {
+        var card = document.getElementById('cards');
+        card.innerHTML += cardContent;
+    }
+
+    addCard(products[i]);
+
 }
-
-console.log(products[0]);
-addCard();
-
-
-
 
 console.log('It\'s all workin');
 

@@ -151,6 +151,12 @@ section#hero {
     padding-top: 200px ;
     padding-bottom: 200px ;
     background-position-y: -700px;
+    position: relative;
+}
+
+#hero .hand {
+    position: absolute;
+    bottom: 0;
 }
 
 .landing article {
@@ -165,7 +171,7 @@ section#hero {
 .hand {
     float: right;
     display: inline-block;
-    margin-right: 100px;
+    padding-right: 50px;
 }
 
 /* Footer */

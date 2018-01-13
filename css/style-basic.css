@@ -1,0 +1,183 @@
+/* Defaults */
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    background: #333132;
+    font-family: "Sansita", sans-serif;
+    color: #E5F5F9;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* LP added this to all divs so that the top and bottom would have space
+*  You can override this by using child css selectors.
+*/
+
+div {
+    padding: 10px 0;
+}
+
+.clearfix {
+    clear: both;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Asar", serif;
+    color: #BE1E2D;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+header {
+    padding: 10px 20px;
+    height: 50px;
+    width: 100%;
+    color: #333132;
+    background-color: rgba(229, 245, 249, .75)
+}
+
+#logo {
+    margin: 10px;
+    max-height: 90%;
+    float: left;
+}
+
+
+/* Navigation */
+
+nav {
+    float: right;
+    max-width: 60%;
+}
+
+nav ul {
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    margin: .5em, .25em, .5em, .25em;
+    padding: 0;
+    display: inline-block;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+nav ul li:last-child {
+    margin-right: .5em;
+}
+
+nav ul li:first-child {
+    margin-left: .5em;
+}
+
+nav li a {
+    text-decoration: none;
+    background: #333132;
+    color: #BE1E2D;
+    padding: 5px 15px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav li a:hover {
+    background-color: #333132;
+    color: rgb(229, 245, 249)
+}
+
+
+/* Body */
+
+div.container {
+    padding: 10px 0;
+    /* CSS Debugging Techinque === MAKE BORDERS AROUND EVERYTHING */
+    border: solid yellow 2px;
+}
+
+
+/* Footer */
+
+footer {
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding: 10px 20px;
+    color: #333132;
+    background-color: rgba(229, 245, 249, .75);
+}
+
+#copyright {
+    float: left;
+    max-height: 100%;
+}
+
+footer ul {
+    float: right;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+footer li a {
+    display: block;
+}
+
+footer li a img {
+    display: block;
+    max-width: 50px;
+}
+
+footer li a img:hover {
+    color: rgba(229, 245, 249, .45);
+}

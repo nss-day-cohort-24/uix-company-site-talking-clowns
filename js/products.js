@@ -50,4 +50,5 @@ var products = [
     }
 ];
 
-
+document.write(products[0]);
+console.log(products[0]);

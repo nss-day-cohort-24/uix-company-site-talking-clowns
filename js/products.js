@@ -50,4 +50,14 @@ var products = [
     }
 ];
 
+var cardContent = '<p>working this shitake</p>';
+
+function addCard() {
+    var card = document.getElementById('cards');
+    card.innerHTML = cardContent;
+}
+
 console.log(products[0]);
+console.log(
+    addCard()
+);

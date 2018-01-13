@@ -1,56 +1,73 @@
 // Object properties: name, description, price, and URL for product image
 var products = [
     {
-        name: 'app name 0',
-        description: 'descriptive text',
-        price: 10,
-        imgURL: 'url'
+        name: 'RubyRoute',
+        description: ' Remove the worry from your child traveling alone with a tracking app that includes checkpoints, mini-games, and notifications for when your child arrives at their destination.',
+        price: '$4.00',
+        imgURL: '../images/appIcons/ruby.png'
     },
     {
-        name: 'app name 1',
-        description: 'descriptive text',
-        price: 100,
-        imgURL: 'url'
+        name: 'KeepUp',
+        description: 'A simplified calendar built for parents to keep track of their child\'s wild schedule of daily events.',
+        price: 'free (in-app purchases)',
+        imgURL: '../images/appIcons/calendar.png'
     },
     {
-        name: 'app name 2',
-        description: 'descriptive text',
-        price: 200,
-        imgURL: 'url'
+        name: 'Carriage',
+        description: 'Be sure your child is in caring hands while traveling to and from home with our trusted group of drivers.',
+        price: 'free',
+        imgURL: '../images/appIcons/carriage.png'
     },
     {
-        name: 'app name 3',
-        description: 'descriptive text',
-        price: 300,
-        imgURL: 'url'
+        name: 'Liength',
+        description: 'Practice honesty with your child with our lie detecting app that can discreetly analyze if your child is telling true or a fib.',
+        price: '$10.00',
+        imgURL: '../images/appIcons/lyingth.png'
     },
     {
-        name: 'app name 4',
-        description: 'descriptive text',
-        price: 400,
-        imgURL: 'url'
+        name: 'All Gowned Up',
+        description: 'Open your child\'s creative side with a simple yet lively dress designer suitable for any and all levels of imagination.',
+        price: 'free (in-app purchases)',
+        imgURL: '../images/appIcons/gown.png'
     },
     {
-        name: 'app name 5',
-        description: 'descriptive text',
-        price: 500,
-        imgURL: 'url'
+        name: 'PrincePoint',
+        description: 'Find the Prince Charming that fits your fantasy perfectly.',
+        price: 'free (in-app purchases)',
+        imgURL: '../images/appIcons/princer.png'
     },
     {
-        name: 'app name 6',
-        description: 'descriptive text',
-        price: 600,
-        imgURL: 'url'
+        name: 'Candy Cottage Cookbook',
+        description: 'Cookbook app of famous recipes from other stories/fables. Make cooking fun with re-creations of favorite recipes from your child\'s favorite tales and stories.',
+        price: '$6.00',
+        imgURL: '../images/appIcons/food.png'
     },
     {
-        name: 'app name 7',
-        description: 'descriptive text',
-        price: 700,
-        imgURL: 'url'
-    },
+        name: 'Stronk Fitness',
+        description: 'Keep you and your child healthy by monitoring things such as their exercise and nutrition. Keep them involved by staying healthy with them and sharing your progress with each other along the way.',
+        price: 'free (in-app purchases)',
+        imgURL: '../images/appIcons/workout.png'
+    }
 ];
 
-console.log(
-    products[0]
-);
+for (i=0; i<=7; i++) {
+    console.log(products[i]);
+
+    var cardContent = `<article class="card">
+                    <img src="` + products[i].imgURL + `">
+                    <h2>` + products[i].name + `</h2>
+                    <p>` + products[i].price + `</p>
+                    <p>` + products[i].description + `</p>
+                    </article>`;
+
+    function addCard() {
+        var card = document.getElementById('cards');
+        card.innerHTML += cardContent;
+    }
+
+    addCard(products[i]);
+
+}
+
+console.log('It\'s all workin');
 

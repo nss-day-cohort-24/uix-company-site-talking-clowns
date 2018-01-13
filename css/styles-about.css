@@ -1,0 +1,20 @@
+.left {
+    float: left;
+    width: 50%;
+    line-height: 200%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    padding-top: 8%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.socialicons {
+    bottom: 0px;
+}
+

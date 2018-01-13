@@ -50,7 +50,12 @@ var products = [
     }
 ];
 
-var cardContent = '<p>working this shitake</p>';
+var cardContent = `<article class="card">
+                   <img src="#">
+                   <h2>name</h2>
+                   <p>price</p>
+                   <p>description</p>
+                   </article>`;
 
 function addCard() {
     var card = document.getElementById('cards');
@@ -58,6 +63,10 @@ function addCard() {
 }
 
 console.log(products[0]);
-console.log(
-    addCard()
-);
+addCard();
+
+
+
+
+console.log('It\'s all workin');
+

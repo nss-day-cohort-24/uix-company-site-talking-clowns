@@ -51,10 +51,10 @@ var products = [
 ];
 
 var cardContent = `<article class="card">
-                   <img src="#">
-                   <h2>name</h2>
-                   <p>price</p>
-                   <p>description</p>
+                   <img src="` + products[0].imgURL + `">
+                   <h2>` + products[0].name + `</h2>
+                   <p>` + products[0].price + `</p>
+                   <p>` + products[0].description + `</p>
                    </article>`;
 
 function addCard() {

@@ -1,4 +1,4 @@
-/** Featured Apps **/
+/** Home - Featured Apps **/
 
 div.featured {
     display: inline-block;
@@ -20,7 +20,7 @@ div.featured img {
     max-width: 200px;
 }
 
-/** Contact Section **/
+/** Home - Contact Section **/
 
 section#contact {
     background-color:#ABEBFF;

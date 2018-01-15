@@ -19,8 +19,8 @@ var products = [
         imgURL: '../images/appIcons/carriage.png'
     },
     {
-        name: 'Liength',
-        description: 'Practice honesty with your child with our lie detecting app that can discreetly analyze if your child is telling true or a fib.',
+        name: 'Lyingth',
+        description: 'Practice honesty with your child with our lie detecting app that can discreetly analyze if your child is telling the truth or a fib.',
         price: '$10.00',
         imgURL: '../images/appIcons/lyingth.png'
     },

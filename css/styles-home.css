@@ -1,25 +1,33 @@
-#home {
+/** Featured Apps **/
 
-}
-
-#home section {
-    display: block;
-}
-
-/** Hero Section **/
-
-#home section#hero {
-
-}
-
-/* #home section#hero article {
+div.featured {
     display: inline-block;
-    width: 50%;
+    background: aliceblue;
+    color: #333132;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 25%;
 }
 
-#home section#hero img {
-    display: inline-block;
-} */
+div.featured h3 {
+    color: #333132;
+    font-family: 'Arvo', serif;
+}
 
+div.featured img {
+    max-width: 200px;
+}
 
+/** Contact Section **/
 
+section#contact {
+    background-color:#ABEBFF;
+    color: #333132;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+}
+
+section#contact h1, section#contact h2 {
+    color: #333132;
+}

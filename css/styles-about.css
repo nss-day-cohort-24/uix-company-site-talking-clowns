@@ -1,5 +1,17 @@
+.aboutHeader {
+    padding: 10px 20px;
+    height: 50px;
+    background-image: url("../images/hero2.png");
+    background-position-y: 0px;
+    box-shadow: 0 5px 5px 0 rgba(32,32,32,.65), inset 0 0 0 2000px rgba(1, 217, 255, 0.45);
+    z-index: 100;
+}
+
 section#company {
     background-image: url("/images/hero2.png");
+    background-position-y: -60px;
+    position: relative;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
 }
 
 section#company div#desc {
@@ -8,6 +20,7 @@ section#company div#desc {
     border-radius: 10px;
     margin-bottom: 100px;
     width: 80%;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
 }
 
 section#company img {

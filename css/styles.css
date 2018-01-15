@@ -111,10 +111,12 @@ nav li a {
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
+    transition: all .5s ease-out;
 }
 
 nav li a:hover {
-    background-color: rgb(253,36,92)
+    background-color: rgb(253,36,92);
+    transition: all .2s ease-in;
 }
 
 a:hover {
@@ -149,6 +151,7 @@ div.container {
     height: max-content;
     display: block;
     padding: 10px 80px;
+    font-weight: bold;
 
 }
 
@@ -191,12 +194,15 @@ section#hero {
     border-radius: 8px;
     margin: 2.5em 0;
     font-weight: bold;
+    transition: all .5s ease-out;
 }
 
 .download1:hover {
     background-color: rgb(68,226,240);
     color: rgb(229,245,249);
     box-shadow: 0 5px 5px 0 rgba(32,32,32,.65);
+    transition: all .2s ease-in;
+    transform: scale(1.1);
 }
 
 .download {
@@ -211,12 +217,15 @@ section#hero {
     border-radius: 8px;
     margin: 2.5em 0;
     font-weight: bold;
+    transition: all .5s ease-out;
 }
 
 .download:hover {
     background-color: rgb(253,36,92);
     color: #ABEBFF;
     box-shadow: 0 5px 5px 0 rgba(32,32,32,.65);
+    transition: all .2s ease-in;
+    transform: scale(1.1);
 }
 
 section#functions {
@@ -269,10 +278,12 @@ section#reviews h1, section#reviews h2 {
     font-weight: bold;
     margin-left: auto;
     padding: 32px;
+    transition: all .5s ease-out;
 }
 
 .bottomNav a:hover {
     box-shadow: 0 5px 5px 0 rgba(32,32,32,.65);
+    transition: all .2s ease-in;
 }
 
 /* Footer */

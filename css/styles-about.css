@@ -20,19 +20,25 @@ section.about {
 
 }
 
-section.about img {
-
+section.team {
+    background-color: #ABEBFF ;
+    color: #333132;
 }
 
-section.about article {
-
+section.team h1, 
+section.team h2, 
+section.team h3 {
+    color: #333132;
 }
 
-section.about h3 {
-
+section.team h3 {
+    margin: 0 0 25px;
 }
 
-section.about p {
-
+section.team img {
+    max-height: 150px;
+    margin-right: 25px;
+    border-radius: 50%;
+    background-color: white;
 }
 

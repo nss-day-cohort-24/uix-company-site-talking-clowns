@@ -1,25 +1,17 @@
-#home {
+/** Featured Apps **/
 
-}
-
-#home section {
-    display: block;
-}
-
-/** Hero Section **/
-
-#home section#hero {
-
-}
-
-/* #home section#hero article {
+div.featured {
     display: inline-block;
-    width: 50%;
+    background: aliceblue;
+    color: #333132;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 25%;
 }
 
-#home section#hero img {
-    display: inline-block;
-} */
-
-
-
+div.featured h3 {
+    color: #333132;
+    font-family: 'Arvo', serif;
+}

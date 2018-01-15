@@ -12,8 +12,9 @@ article.card {
     margin: 10px;
     border-radius: 5px;
     text-align: center;
-    min-height: 350px;
     width: 28%;
+    height: 360px;
+    vertical-align: text-bottom;
 }
 
 article.card h1, article.card h2 {

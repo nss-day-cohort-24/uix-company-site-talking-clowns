@@ -38,6 +38,8 @@ div.featured {
     padding: 20px;
     text-align: center;
     width: 25%;
+    height: 360px;
+    vertical-align: text-bottom;
 }
 
 div.featured h3 {

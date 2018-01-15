@@ -7,6 +7,24 @@
     z-index: 100;
 }
 
+.contactHeader {
+    padding: 10px 20px;
+    height: 50px;
+    background-image: url("../images/hero2.png");
+    background-position-y: 0px;
+    background-position-x: right;
+    box-shadow: 0 5px 5px 0 rgba(32,32,32,.65), inset 0 0 0 2000px rgba(255, 1, 77, 0.45);
+    z-index: 100;
+}
+
+section.contact {
+    background-image: url("/images/hero2.png");
+    background-position-y: -60px;
+       background-position-x: right;
+    position: relative;
+    box-shadow:  0 5px 5px 0 rgba(32,32,32,.65);
+}
+
 section#company {
     background-image: url("/images/hero2.png");
     background-position-y: -60px;
@@ -16,7 +34,7 @@ section#company {
 
 section#company div#desc {
     padding: 20px;
-    background-color: rgba(171,235,255,0.4);
+    background-color: rgba(255, 1, 77, 0.4);
     border-radius: 10px;
     margin-bottom: 100px;
     width: 80%;
@@ -56,3 +74,13 @@ section.team:last-child {
     padding-bottom: 100px;
 }
 
+.contactFooter {
+    background-image: url(../images/hero2.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    color: rgb(229,245,249);
+    text-align: center;
+    display: block;
+    height: 50px;
+    box-shadow:inset 0 0 0 2000px rgba(255, 1, 77, 0.45);
+    position: relative;

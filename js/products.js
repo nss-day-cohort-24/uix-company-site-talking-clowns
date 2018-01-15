@@ -1,7 +1,7 @@
 // Object properties: name, description, price, and URL for product image
 var products = [
     {
-        name: 'RubyRoute',
+        name: 'thRuby',
         description: ' Remove the worry from your child traveling alone with a tracking app that includes checkpoints, mini-games, and notifications for when your child arrives at their destination.',
         price: '$4.00',
         imgURL: '../images/appIcons/ruby.png'

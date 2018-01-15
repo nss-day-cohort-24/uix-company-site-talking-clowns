@@ -56,8 +56,8 @@ for (i=0; i<=7; i++) {
     var cardContent = `<article class="card">
                     <img src="` + products[i].imgURL + `">
                     <h2>` + products[i].name + `</h2>
-                    <p>` + products[i].price + `</p>
-                    <p>` + products[i].description + `</p>
+                    <p class="price">` + products[i].price + `</p>
+                    <p class="appDesc">` + products[i].description + `</p>
                     </article>`;
 
     function addCard() {

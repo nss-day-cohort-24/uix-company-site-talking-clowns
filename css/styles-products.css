@@ -1,8 +1,8 @@
 /* Product Page Styles */
 
-/* section#products {
-
-} */
+section#products {
+    background-image: url("../images/hero.png");
+}
 
 article.card {
     display: inline-block;
@@ -11,8 +11,24 @@ article.card {
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
+    text-align: center;
+    min-height: 350px;
+    width: 28%;
 }
 
 article.card h1, article.card h2 {
     color: #333132;
 } 
+
+article.card img {
+    max-width: 150px;
+}
+
+article.card p.price {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+}
+
+p.appDesc {
+    margin-bottom: 1em;
+}

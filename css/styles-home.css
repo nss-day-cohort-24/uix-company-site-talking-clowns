@@ -91,3 +91,11 @@ section#contact p {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+#thrubyCopy { 
+    max-height: 100%;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+}

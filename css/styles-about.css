@@ -1,18 +1,10 @@
-section.title {
-
-}
-
-section.title h1 {
-
-}
-
 section#company {
     background-image: url("/images/hero.png");
 }
 
 section#company div#desc {
     padding: 20px;
-    background-color: rgba(51, 49, 50, 0.637);
+    background-color: rgba(171,235,255,0.4);
     border-radius: 10px;
     margin-bottom: 100px;
     width: 80%;
@@ -21,6 +13,7 @@ section#company div#desc {
 section#company img {
     margin-left: 50px;
     margin-right: 50px;
+    max-width: 250px;
 }
 
 section.team {
